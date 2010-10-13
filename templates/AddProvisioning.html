@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>Upload Provisioning</title>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.1/build/reset/reset-min.css">
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.1/build/fonts/fonts-min.css">
+	</head>
+	<body>
+		<div>
+		{% if flash %}
+		<p>{{ flash }}</p>
+		{% endif %}
+			
+		<form action="?" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+			<p><label for="profile">Profile: </label><input type="file" name="profile" id="profile"></p>
+
+			<p><input type="submit" value="Continue &rarr;"></p>
+		</form>
+	</body>
+</html>
