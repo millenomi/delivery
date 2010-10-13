@@ -10,7 +10,7 @@ This is a Google App Engine application that handles over-the-air iOS app distri
 
 * `POST` (`multipart/form-data`) to upload a provisioning profile. Arguments:
 
- * `profile`: The contents of the provisioning profile.
+	* `profile`: The contents of the provisioning profile.
 
 ### `/com.apple.ios/provisioning/<UUID>`
 
